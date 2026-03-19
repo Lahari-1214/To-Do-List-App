@@ -1,0 +1,7 @@
+create database toso
+
+users table:
+create table users(id int primary key auto_increment,username varchar(50),password text not null);
+
+task table:
+create table tasks(id int primary key auto_increment,title text not null,status varchar(50) DEFAULT 'Pending',user_id int, FOREIGN KEY (user_id) REFERENCES users(id) ON DELETE CASCADE);
