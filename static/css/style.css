@@ -1,0 +1,71 @@
+body {
+    font-family: Arial;
+    background: #eee;
+}
+
+.container {
+    width: 600px;
+    margin: auto;
+    margin-top: 50px;
+}
+
+.header {
+    background: linear-gradient(to right, #4facfe, #00c6ff);
+    padding: 20px;
+    text-align: center;
+    color: white;
+    border-radius: 10px;
+}
+
+.header input {
+    width: 70%;
+    padding: 10px;
+}
+
+.header button {
+    padding: 10px;
+}
+
+.task-section {
+    background: white;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    background: #f2f2f2;
+    margin: 10px 0;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.actions a {
+    margin-left: 10px;
+    text-decoration: none;
+}
+
+.edit-box {
+    background: #555;
+    color: white;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+.edit-box input {
+    width: 100%;
+    padding: 10px;
+}
+
+.buttons {
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+}
